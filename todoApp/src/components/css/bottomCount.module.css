@@ -1,0 +1,25 @@
+.bottomDiv {
+  position: fixed; /* Keeps the footer at the bottom */
+  bottom: 60px; /* Sets it at the very bottom */
+  left: 50%; /* Aligns the div to the center horizontally */
+  transform: translateX(-50%); /* Centers the div correctly */
+  font-weight: bold;
+  font-size: 1.2em;
+  display: flex; /* Enables Flexbox */
+  align-items: center; /* Vertically centers the text */
+  justify-content: space-between; /* Horizontally centers the text */
+  background-color: rgb(206, 252, 0); /* Same as before */
+  padding: 10px;
+  height: 40px;
+  border-radius: 80px;
+  width: 96%; /* Makes it responsive across screen sizes */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  z-index: 100; /* Ensures it stays above other elements */
+}
+
+.bottomSpanTotal,
+.bottomSpanCompleted {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 0;
+}
